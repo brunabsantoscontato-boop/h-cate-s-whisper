@@ -33,27 +33,29 @@ export function About() {
             Quem sou
           </span>
           <h2 className="font-display text-4xl md:text-5xl mb-6 leading-tight">
-            Bruxa moderna,{" "}
-            <span className="text-gradient-gold italic">sensitiva</span> e
-            guardiã das cartas
+            <span className="text-gradient-gold italic">Lucy Kandac</span>
           </h2>
           <div className="space-y-5 text-muted-foreground leading-relaxed">
             <p>
-              Há mais de uma década caminho ao lado de Hécate, a deusa das
-              encruzilhadas. O Tarô das Bruxas é minha linguagem para traduzir
-              os sussurros do invisível em respostas claras para a sua vida.
+              Utilizo o tarô como uma ferramenta de autoconhecimento e
+              reflexão, sendo cada consulta sensível e profunda. Há anos
+              caminho lado a lado com as cartas, aprendendo e
+              compartilhando seus ensinamentos.
             </p>
             <p>
-              Cada consulta é um ritual. Acendo velas, invoco proteção e me
-              conecto à sua energia para revelar verdades que sua alma já sabe —
-              mas que sua mente ainda não ousou ouvir.
+              Sou taróloga e também bruxa, tecendo magia nas entrelinhas
+              da vida. Após cada consulta, posso indicar benfeitorias,
+              rituais e práticas energéticas para harmonizar corpo, mente
+              e espírito, tudo conforme a maneira que você estiver vivendo.
             </p>
             <p>
-              Não prometo previsões mágicas. Entrego{" "}
-              <span className="text-gold-soft">clareza</span>,{" "}
-              <span className="text-gold-soft">direção</span> e{" "}
-              <span className="text-gold-soft">poder</span> para você decidir o
-              próximo passo.
+              As consultas são enviadas por áudio ou texto, conforme sua
+              preferência, para que você tenha todo o registro. Bem
+              sempre as mensagens fazem sentido de imediato, e é natural
+              que alguns detalhes se revelem com o tempo, por isso
+              acredite que você deve ter a liberdade de ouvir ou rever
+              quantas vezes quiser. Confio profundamente no meu trabalho
+              e na sabedoria do Tarô.
             </p>
           </div>
         </motion.div>

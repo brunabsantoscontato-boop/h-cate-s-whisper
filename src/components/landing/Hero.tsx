@@ -55,19 +55,15 @@ export function Hero() {
           className="text-center lg:text-left"
         >
           <span className="inline-block uppercase tracking-[0.4em] text-xs text-gold mb-6">
-            Tarô das Bruxas · Lucy Kandac
+            Por Lucy Kandac
           </span>
-          <h1 className="font-display text-4xl md:text-6xl lg:text-7xl leading-[1.05] mb-6">
-            O destino está tentando{" "}
-            <span className="text-gradient-gold italic">falar</span> com você…{" "}
-            <br className="hidden md:block" />
-            <span className="text-foreground/90">você vai ouvir?</span>
+          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[1.05] mb-6">
+            <span className="text-gradient-gold italic">Tarot</span> Online
           </h1>
           <p className="text-base md:text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-10 leading-relaxed">
-            Descubra respostas profundas sobre <span className="text-gold-soft">amor</span>,{" "}
-            <span className="text-gold-soft">dinheiro</span> e{" "}
-            <span className="text-gold-soft">caminhos espirituais</span> através do
-            antigo Tarô das Bruxas — guiado pela energia de Hécate.
+            Atendimento a distância, mas com a mesma energia e precisão de
+            um atendimento presencial. Oferecido por áudio ou texto, para
+            que você tenha a liberdade de ler ou ouvir quantas vezes quiser.
           </p>
           <a
             href={WHATSAPP_URL}
@@ -75,11 +71,8 @@ export function Hero() {
             rel="noopener noreferrer"
             className="btn-mystic inline-flex items-center gap-3 bg-gradient-gold text-primary-foreground font-semibold px-8 py-4 rounded-full text-base md:text-lg shadow-gold"
           >
-            🔮 Quero minha leitura agora
+            🔮 Agendar Consulta
           </a>
-          <p className="mt-4 text-xs text-muted-foreground/70 italic">
-            Atendimento online · Brasil inteiro
-          </p>
         </motion.div>
 
         {/* Right: floating cards */}

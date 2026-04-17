@@ -23,9 +23,9 @@ export function CTAFinal() {
           <span className="text-gradient-gold italic">consulta</span>
         </h2>
         <p className="text-muted-foreground text-lg mb-10 max-w-xl mx-auto">
-          Tire suas dúvidas sobre amor, futuro, decisões e espiritualidade.
-          Saiba o que as cartas têm a dizer e busque o caminho da felicidade
-          e paz interior.
+          Tire suas dúvidas sobre amor, trabalho, família e evolução
+          pessoal. Saiba o que as cartas têm a dizer e busque o caminho
+          da felicidade e paz interior.
         </p>
 
         <div className="flex justify-center">

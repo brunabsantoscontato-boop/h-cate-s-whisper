@@ -87,22 +87,25 @@ export function Consultas() {
           transition={{ duration: 0.8 }}
           className="text-center max-w-2xl mx-auto mb-16"
         >
-          <span className="uppercase tracking-[0.4em] text-xs text-gold">Rituais</span>
+          <span className="uppercase tracking-[0.4em] text-xs text-gold">Serviços</span>
           <h2 className="font-display text-4xl md:text-6xl mt-3 mb-4">
             <span className="text-gradient-gold">Consultas</span>
           </h2>
           <p className="text-muted-foreground">
-            Escolha o caminho que mais ressoa com sua alma. Cada carta é uma porta.
+            Confira abaixo nossos serviços e agende agora mesmo.
           </p>
         </motion.div>
 
         {/* Tempo */}
         <div className="mb-20">
           <h3 className="font-display text-2xl md:text-3xl text-gold-soft mb-2">
-            Consultas agendadas por áudio
+            Consultas agendada por áudio
           </h3>
           <p className="text-sm text-muted-foreground mb-8 max-w-2xl">
-            Atendimento por WhatsApp em horário marcado. Tire quantas perguntas quiser dentro do tempo escolhido.
+            Consulta feita por WhatsApp e por áudio. Daria as faces das
+            cartas e as dúvidas em seguida. Podendo ser feitas quantas
+            perguntas quiser e sobre qualquer assunto dentro do tempo
+            escolhido.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-5 max-w-4xl">
             {tempo.map((c, i) => (
@@ -117,7 +120,9 @@ export function Consultas() {
             Consultas sem agendamento
           </h3>
           <p className="text-sm text-muted-foreground mb-8 max-w-2xl">
-            Receba a leitura por áudio ou texto. Perfeita para temas específicos e tiragens completas.
+            Consultas que não exigem agendamento, com perguntas abertas
+            sobre a vida em geral, vida amorosa, vida material, caminhos
+            espirituais e tiragens ideais para o fim ou o início do ano.
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-5">
             {perguntas.map((c, i) => (
@@ -134,8 +139,9 @@ export function Consultas() {
           transition={{ duration: 0.8 }}
           className="mt-20 text-center"
         >
-          <p className="text-lg md:text-xl font-display italic text-foreground/85 mb-6">
-            Precisa de respostas <span className="text-gradient-gold">agora</span>?
+          <p className="text-base md:text-lg text-foreground/85 mb-6 max-w-xl mx-auto">
+            Quer um atendimento imediato? Clique no botão abaixo que irei
+            te atender em seguida.
           </p>
           <a
             href={`${WHATSAPP_BASE}${encodeURIComponent("Olá Lucy, quero atendimento imediato")}`}

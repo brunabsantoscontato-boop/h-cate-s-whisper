@@ -28,20 +28,14 @@ export function CTAFinal() {
           e paz interior.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex justify-center">
           <a
             href={WHATSAPP}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-mystic inline-flex items-center gap-3 bg-gradient-gold text-primary-foreground font-semibold px-8 py-4 rounded-full shadow-gold w-full sm:w-auto justify-center"
+            className="btn-mystic inline-flex items-center gap-3 bg-gradient-gold text-primary-foreground font-semibold px-10 py-4 rounded-full shadow-gold"
           >
-            💬 WhatsApp
-          </a>
-          <a
-            href="mailto:lucykandac@taro.com"
-            className="btn-mystic inline-flex items-center gap-3 bg-transparent border border-gold/60 text-gold-soft font-semibold px-8 py-4 rounded-full w-full sm:w-auto justify-center hover:bg-gold/10"
-          >
-            ✉ E-mail
+            💬 Agendar pelo WhatsApp
           </a>
         </div>
 

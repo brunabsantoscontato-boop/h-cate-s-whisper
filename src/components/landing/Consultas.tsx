@@ -40,7 +40,7 @@ function TarotCard({ c, index }: { c: Consulta; index: number }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.6, delay: (index % 4) * 0.08 }}
-      className="tarot-card block aspect-[3/4] max-w-[210px] w-full mx-auto focus:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-xl"
+      className="tarot-card block aspect-[3/4] w-full max-w-[200px] mx-auto focus:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-xl"
       aria-label={`Agendar ${c.title}`}
     >
       <div className="tarot-card-inner">
@@ -104,7 +104,7 @@ export function Consultas() {
           <p className="text-sm text-muted-foreground mb-8 max-w-2xl">
             Atendimento por WhatsApp em horário marcado. Tire quantas perguntas quiser dentro do tempo escolhido.
           </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 md:gap-5 max-w-4xl">
             {tempo.map((c, i) => (
               <TarotCard key={c.title} c={c} index={i} />
             ))}
@@ -119,7 +119,7 @@ export function Consultas() {
           <p className="text-sm text-muted-foreground mb-8 max-w-2xl">
             Receba a leitura por áudio ou texto. Perfeita para temas específicos e tiragens completas.
           </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-5">
             {perguntas.map((c, i) => (
               <TarotCard key={c.title} c={c} index={i} />
             ))}

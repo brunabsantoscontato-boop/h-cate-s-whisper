@@ -40,7 +40,7 @@ function TarotCard({ c, index }: { c: Consulta; index: number }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.6, delay: (index % 4) * 0.08 }}
-      className="tarot-card block aspect-[3/4] focus:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-xl"
+      className="tarot-card block aspect-[3/4] max-w-[210px] w-full mx-auto focus:outline-none focus-visible:ring-2 focus-visible:ring-gold rounded-xl"
       aria-label={`Agendar ${c.title}`}
     >
       <div className="tarot-card-inner">
